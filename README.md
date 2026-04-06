@@ -35,6 +35,14 @@ View History: `git log` (See past commits)
 Condensed History: `git log --oneline`  
 Discard Local Changes: `git restore <file>`  
 Hard Reset: `git reset --hard` (Deletes all uncommitted changes)  
+7. **Stage & Snapshots**  
+Working with snapshots and the Git staging area  
+Show modified files in working directory, staged for your next commit `git status`  
+Difference of what is changed but not staged `git diff`  
+Difference of what is staged but not yet committed `git diff --staged`  
+
+
+
 
 
 ## **Good To Know Information**
