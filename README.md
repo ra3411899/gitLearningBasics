@@ -24,6 +24,17 @@ Create New Branch: `git branch <branch-name>`
 Switch Branch: `git switch <branch-name>` or `git checkout <branch-name>`  
 Create & Switch: `git checkout -b <branch-name>`  
 Merge Branch: `git merge <branch-name>` (Combines changes into your current branch)  
+5. **Remote Syncing**  
+To share your code or get updates from a team, you must sync with a remote server.  
+Add Remote: `git remote add origin <url>` (Connects local repo to a remote one)
+Push Changes: `git push origin <branch-name>` (Uploads local commits)
+Pull Changes: `git pull` (Downloads and merges changes from the remote)
+Fetch Changes: `git fetch` (Downloads remote changes without merging them)
+6. **Inspecting & Undoing**  
+View History: `git log` (See past commits)  
+Condensed History: `git log --oneline`  
+Discard Local Changes: `git restore <file>`  
+Hard Reset: `git reset --hard` (Deletes all uncommitted changes)  
 
 
 ## **Good To Know Information**
